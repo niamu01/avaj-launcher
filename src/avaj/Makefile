@@ -3,7 +3,7 @@ all:
     javac -sourcepath . @sources.txt
     java avaj.Simulator scenario.txt
 
-    # maybe just jaca scenario.txt
+    # maybe just java scenario.txt
 
 clean:
     find . -name '*.class' -delete
