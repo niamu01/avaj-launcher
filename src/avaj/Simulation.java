@@ -43,17 +43,17 @@ public class Simulation {
             }
             reader.close();
         } catch (Exception e) {
-            throw new RuntimeException();
+            throw new NumberFormatException();
         }
     }
 
     public static void main(String[] args) {
-        if (args.length != 2) {
+        if (args.length != 1) {
             System.out.println("Error: argv");
         }
 
         try {
-            init(new File(args[1]));
+            init(new File(args[0]));
         } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
             return;
