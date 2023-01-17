@@ -1,8 +1,8 @@
 package avaj;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.BufferedReader;
 
 public class Simulation {
     private static int count;
@@ -25,7 +25,7 @@ public class Simulation {
         );
     }
 
-    private static void init(File path) {
+    private static void init(String path) {
 //        BufferedReader reader = new BufferedReader(
 //                new FileReader("d:\\file.txt")
 //        );
@@ -36,7 +36,18 @@ public class Simulation {
 //        }
         String str;
         try{
-            BufferedReader reader = new BufferedReader(new FileReader(path));
+//            System.out.println("0");
+            File c = new File("/Users/juyeeun/Desktop/AvajLauncher/src/avaj/scenario.txt");
+            System.out.println("1");
+            if (!c.canRead())
+                System.out.println("can't read");
+            FileReader fr = new FileReader(c); //error
+            System.out.println("1.5");
+            FileReader fr2 = new FileReader(c); //error
+            System.out.println("2");
+            BufferedReader reader = new BufferedReader(fr);
+            System.out.println("3");
+//            BufferedReader reader = new BufferedReader(new FileReader(path));
             count = Integer.parseInt(reader.readLine()); //NumberFormatException
             while ((str = reader.readLine()) != null) {
                 makeAircraft(str);
@@ -53,8 +64,9 @@ public class Simulation {
         }
 
         try {
-            init(new File(args[0]));
+            init(args[0]);
         } catch (NumberFormatException e) {
+            System.out.println("error: init function");
             System.out.println(e.getMessage());
             return;
         }
