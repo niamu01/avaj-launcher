@@ -3,9 +3,6 @@ package avaj;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Simulation {
     private static int count;
@@ -14,6 +11,18 @@ public class Simulation {
     public static class SimulationException extends Exception {
         public SimulationException() { super(); }
         public SimulationException(String str) { super (str); }
+    }
+
+    private static void makeAircraft(String str) {
+        wt = new WeatherTower();
+        String[] parse = str.split(" ");
+        AircraftFactory.newAircraft(
+            parse[0], 
+            parse[1], 
+            Integer.parseInt(parse[2]), 
+            Integer.parseInt(parse[3]), 
+            Integer.parseInt(parse[4])
+        );
     }
 
     private static void init(File path) {
@@ -25,14 +34,12 @@ public class Simulation {
 //        while ((str = reader.readLine()) != null) {
 //            System.out.println(str);
 //        }
-        List<String> line= new ArrayList<>();
         String str;
         try{
             BufferedReader reader = new BufferedReader(new FileReader(path));
             count = Integer.parseInt(reader.readLine()); //NumberFormatException
             while ((str = reader.readLine()) != null) {
-                line.add(str);
-//            makeAircraft();
+                makeAircraft(str);
             }
             reader.close();
         } catch (Exception e) {
