@@ -3,7 +3,7 @@ package avaj;
 public class AircraftFactory {
     //longitude 경도
     //latitude 위도
-    public Flyable newAircraft(String type, String name, int longitude, int latitude, int height) {
+    public static Flyable newAircraft(String type, String name, int longitude, int latitude, int height) {
         if (longitude < 0 || latitude < 0 || height < 0 || height > 100) {
             throw new RuntimeException("Error newAircraft: value");
         }
