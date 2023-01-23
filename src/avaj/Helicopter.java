@@ -40,10 +40,12 @@ public class Helicopter extends Aircraft implements Flyable {
 
         String msg = message.get(weather);
         System.out.println(this.type + "#" + this.name + "(" + this.id + "): " + msg);
+//        System.out.println("position: " + this.coordinates.getLongitude() + " " + this.coordinates.getLatitude() + " " + this.coordinates.getHeight());
 
         if (this.coordinates.getHeight() <= 0) {
             System.out.println(this.type + "#" + this.name + "(" + this.id + ") landing.");
             System.out.println("Tower says: " + this.type + "#" + this.name + "(" + this.id + ")" + " unregistered from weather tower.");
+            weatherTower.unregister(this);
         }
     };
 
