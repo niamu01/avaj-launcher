@@ -3,7 +3,7 @@ package avaj;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tower {
+public abstract class Tower {
 //    private Flyable observers[];
     private static ArrayList<Flyable> observers = new ArrayList<Flyable>();
 

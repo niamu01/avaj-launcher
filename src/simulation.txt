@@ -1,0 +1,148 @@
+[47m[30mTower says: Baloon#B1(1) registered to weather tower.[0m
+[47m[30mTower says: Baloon#B2(2) registered to weather tower.[0m
+[47m[30mTower says: JetPlane#J1(3) registered to weather tower.[0m
+[47m[30mTower says: Helicopter#H1(4) registered to weather tower.[0m
+[47m[30mTower says: Helicopter#H2(5) registered to weather tower.[0m
+[47m[30mTower says: Helicopter#H3(6) registered to weather tower.[0m
+[47m[30mTower says: Baloon#B3(7) registered to weather tower.[0m
+[47m[30mTower says: JetPlane#J2(8) registered to weather tower.[0m
+[47m[30mTower says: Helicopter#H4(9) registered to weather tower.[0m
+Baloon#B1(1): [38;5;177mbaloon-fog[0m
+Baloon#B2(2): [38;5;177mbaloon-fog[0m
+JetPlane#J1(3): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H1(4): [38;5;27mhelicopter-rain[0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;220mThis is hot.[0m
+Baloon#B3(7): [38;5;220mLet's enjoy the good weather and take some pics.[0m
+JetPlane#J2(8): [38;5;177mjetplane-fog[0m
+Helicopter#H4(9): [38;5;195mMy rotor is going to freeze![0m
+Baloon#B1(1): [38;5;27mDamn you rain! You messed up my baloon.[0m
+Baloon#B2(2): [38;5;27mDamn you rain! You messed up my baloon.[0m
+JetPlane#J1(3): [38;5;220mjetplane-sun[0m
+Helicopter#H1(4): [38;5;220mThis is hot.[0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;220mThis is hot.[0m
+Baloon#B3(7): [38;5;27mDamn you rain! You messed up my baloon.[0m
+JetPlane#J2(8): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H4(9): [38;5;195mMy rotor is going to freeze![0m
+Baloon#B1(1): [38;5;220mLet's enjoy the good weather and take some pics.[0m
+Baloon#B2(2): [38;5;195mIt's snowing. We're gonna crash.[0m
+JetPlane#J1(3): [38;5;220mjetplane-sun[0m
+Helicopter#H1(4): [38;5;177mhelicopter-fog[0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;27mhelicopter-rain[0m
+Baloon#B3(7): [38;5;177mbaloon-fog[0m
+JetPlane#J2(8): [38;5;220mjetplane-sun[0m
+Helicopter#H4(9): [38;5;220mThis is hot.[0m
+Baloon#B1(1): [38;5;195mIt's snowing. We're gonna crash.[0m
+Baloon#B2(2): [38;5;220mLet's enjoy the good weather and take some pics.[0m
+JetPlane#J1(3): [38;5;220mjetplane-sun[0m
+Helicopter#H1(4): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H2(5): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H3(6): [38;5;177mhelicopter-fog[0m
+Baloon#B3(7): [38;5;177mbaloon-fog[0m
+JetPlane#J2(8): [38;5;177mjetplane-fog[0m
+Helicopter#H4(9): [38;5;195mMy rotor is going to freeze![0m
+Baloon#B1(1): [38;5;27mDamn you rain! You messed up my baloon.[0m
+Baloon#B1(1) landing.
+[47m[30mTower says: Baloon#B1(1) unregistered from weather tower.[0m
+JetPlane#J1(3): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H1(4): [38;5;220mThis is hot.[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;220mThis is hot.[0m
+Baloon#B3(7): [38;5;177mbaloon-fog[0m
+JetPlane#J2(8): [38;5;177mjetplane-fog[0m
+Helicopter#H4(9): [38;5;195mMy rotor is going to freeze![0m
+Baloon#B2(2): [38;5;27mDamn you rain! You messed up my baloon.[0m
+JetPlane#J1(3): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H1(4): [38;5;27mhelicopter-rain[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+Baloon#B3(7): [38;5;195mIt's snowing. We're gonna crash.[0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H4(9): [38;5;177mhelicopter-fog[0m
+Baloon#B2(2): [38;5;177mbaloon-fog[0m
+JetPlane#J1(3): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H1(4): [38;5;220mThis is hot.[0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+Baloon#B3(7): [38;5;195mIt's snowing. We're gonna crash.[0m
+Baloon#B3(7) landing.
+[47m[30mTower says: Baloon#B3(7) unregistered from weather tower.[0m
+Helicopter#H4(9): [38;5;220mThis is hot.[0m
+Baloon#B2(2): [38;5;177mbaloon-fog[0m
+JetPlane#J1(3): [38;5;220mjetplane-sun[0m
+Helicopter#H1(4): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H4(9): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H4(9) landing.
+[47m[30mTower says: Helicopter#H4(9) unregistered from weather tower.[0m
+Baloon#B2(2): [38;5;195mIt's snowing. We're gonna crash.[0m
+JetPlane#J1(3): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H1(4): [38;5;177mhelicopter-fog[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;27mhelicopter-rain[0m
+JetPlane#J2(8): [38;5;177mjetplane-fog[0m
+Baloon#B2(2): [38;5;177mbaloon-fog[0m
+JetPlane#J1(3): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H1(4): [38;5;220mThis is hot.[0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;27mhelicopter-rain[0m
+JetPlane#J2(8): [38;5;177mjetplane-fog[0m
+Baloon#B2(2): [38;5;195mIt's snowing. We're gonna crash.[0m
+JetPlane#J1(3): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H1(4): [38;5;177mhelicopter-fog[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Baloon#B2(2): [38;5;177mbaloon-fog[0m
+Baloon#B2(2) landing.
+[47m[30mTower says: Baloon#B2(2) unregistered from weather tower.[0m
+Helicopter#H1(4): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H1(4) landing.
+[47m[30mTower says: Helicopter#H1(4) unregistered from weather tower.[0m
+Helicopter#H3(6): [38;5;177mhelicopter-fog[0m
+JetPlane#J2(8): [38;5;177mjetplane-fog[0m
+JetPlane#J1(3): [38;5;195mOMG! Winter is coming![0m
+JetPlane#J1(3) landing.
+[47m[30mTower says: JetPlane#J1(3) unregistered from weather tower.[0m
+Helicopter#H3(6): [38;5;177mhelicopter-fog[0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;220mThis is hot.[0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;220mjetplane-sun[0m
+Helicopter#H2(5): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H3(6): [38;5;220mThis is hot.[0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;220mjetplane-sun[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;27mhelicopter-rain[0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;27mIt's raining. Better watch out for lightings.[0m
+Helicopter#H2(5): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;27mhelicopter-rain[0m
+JetPlane#J2(8): [38;5;195mOMG! Winter is coming![0m
+Helicopter#H2(5): [38;5;220mThis is hot.[0m
+Helicopter#H3(6): [38;5;220mThis is hot.[0m
+JetPlane#J2(8): [38;5;220mjetplane-sun[0m
+Helicopter#H2(5): [38;5;177mhelicopter-fog[0m
+Helicopter#H3(6): [38;5;195mMy rotor is going to freeze![0m
+Helicopter#H3(6) landing.
+[47m[30mTower says: Helicopter#H3(6) unregistered from weather tower.[0m
+Helicopter#H2(5): [38;5;195mMy rotor is going to freeze![0m
+JetPlane#J2(8): [38;5;220mjetplane-sun[0m

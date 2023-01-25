@@ -9,6 +9,15 @@ public class Helicopter extends Aircraft implements Flyable {
         super(name, coordinates);
     };
 
+    public static final String RESET = "\u001B[0m";
+
+    public static final String FOG = "\u001B[38;5;177m";
+    public static final String SNOW = "\u001B[38;5;195m";
+    public static final String RAIN = "\u001B[38;5;27m";
+    public static final String SUN = "\u001B[38;5;220m";
+
+    public static final String WHITE_BACKGROUND = "\u001B[47m";
+    public static final String BLACK = "\u001B[30m";
 //fog
 //rain
 //snow  My rotor is going to freeze!
@@ -22,10 +31,10 @@ public class Helicopter extends Aircraft implements Flyable {
     @Override
     public void updateConditions() {
         HashMap<String, String> message = new HashMap<>();
-        message.put("FOG", "helicopter-fog");
-        message.put("RAIN", "helicopter-rain");
-        message.put("SNOW", "My rotor is going to freeze!");
-        message.put("SUN", "This is hot.");
+        message.put("FOG", FOG + "helicopter-fog" + RESET);
+        message.put("RAIN", RAIN + "helicopter-rain" + RESET);
+        message.put("SNOW", SNOW + "My rotor is going to freeze!" + RESET);
+        message.put("SUN", SUN + "This is hot." + RESET);
 
         String weather = this.weatherTower.getWeather(this.coordinates);
         if (weather.equals("FOG")) {
@@ -44,7 +53,7 @@ public class Helicopter extends Aircraft implements Flyable {
 
         if (this.coordinates.getHeight() <= 0) {
             System.out.println(this.type + "#" + this.name + "(" + this.id + ") landing.");
-            System.out.println("Tower says: " + this.type + "#" + this.name + "(" + this.id + ")" + " unregistered from weather tower.");
+            System.out.println(WHITE_BACKGROUND + BLACK + "Tower says: " + this.type + "#" + this.name + "(" + this.id + ")" + " unregistered from weather tower." + RESET);
             weatherTower.unregister(this);
         }
     };
@@ -53,6 +62,6 @@ public class Helicopter extends Aircraft implements Flyable {
     public void registerTower(WeatherTower weatherTower) {
         this.weatherTower = weatherTower;
         this.weatherTower.register(this);
-        System.out.println("Tower says: " + this.type + "#" + this.name + "(" + this.id + ")" + " registered to weather tower.");
+        System.out.println(WHITE_BACKGROUND + BLACK + "Tower says: " + this.type + "#" + this.name + "(" + this.id + ")" + " registered to weather tower." + RESET);
     };
 }
