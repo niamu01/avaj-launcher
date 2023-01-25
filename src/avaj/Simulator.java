@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.BufferedReader;
 
-public class Simulation {
+public class Simulator {
     private static int count;
     private static WeatherTower wt;// = new weatherTower();
 // nongdamgom
@@ -50,8 +50,8 @@ public class Simulation {
         }
 
         try {
-//            init(args[0]);
-            init("/Users/juyeeun/Desktop/AvajLauncher/src/avaj/scenario2.txt");
+           init(args[0]);
+            // init("/Users/juyeeun/Desktop/AvajLauncher/src/avaj/scenario2.txt");
         } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
             return;
