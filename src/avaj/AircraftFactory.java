@@ -6,7 +6,7 @@ public abstract class AircraftFactory {
     public static Flyable newAircraft(String type, String name, int longitude, int latitude, int height) {
         if (longitude < 0 || latitude < 0 || height < 0) {
             System.out.printf("%d %d %d\n", longitude, latitude, height);
-            throw new RuntimeException("Error newAircraft: value");
+            throw new avaj.Simulator.SimulationException("Error newAircraft: value");
         }
         Coordinates coordinates = new Coordinates(longitude, latitude, height);
         if (type.equals("Helicopter")) {
