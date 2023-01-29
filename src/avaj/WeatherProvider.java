@@ -10,7 +10,6 @@ public class WeatherProvider {
         return WeatherProvider.weatherProvider;
     };
     public String getCurrentWeather(Coordinates coordinates) {
-        //change to random value?
         Random random = new Random();
 
         int x = coordinates.getLongitude();

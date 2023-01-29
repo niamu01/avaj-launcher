@@ -10,24 +10,12 @@ public class JetPlane extends Aircraft implements Flyable {
     };
 
     public static final String RESET = "\u001B[0m";
-
     public static final String FOG = "\u001B[38;5;177m";
     public static final String SNOW = "\u001B[38;5;195m";
     public static final String RAIN = "\u001B[38;5;27m";
     public static final String SUN = "\u001B[38;5;220m";
-
     public static final String WHITE_BACKGROUND = "\u001B[47m";
     public static final String BLACK = "\u001B[30m";
-//fog
-//rain  It's raining. Better watch out for lightings.
-//snow  OMG! Winter is coming!
-//sun
-
-//Helicopter:
-//  - fog: +1 / 0 / 0
-//  - rain: +5 / 0 / 0
-//  - snow: 0 / 0 / -12
-//  - sun: +10 / 0 / +2
 
     public void updateConditions() {
         HashMap<String, String> message = new HashMap<>();
@@ -49,7 +37,6 @@ public class JetPlane extends Aircraft implements Flyable {
 
         String msg = message.get(weather);
         System.out.println(this.type + "#" + this.name + "(" + this.id + "): " + msg);
-//        System.out.println("position: " + this.coordinates.getLongitude() + " " + this.coordinates.getLatitude() + " " + this.coordinates.getHeight());
 
         if (this.coordinates.getHeight() <= 0) {
             System.out.println(this.type + "#" + this.name + "(" + this.id + ") landing.");

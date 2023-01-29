@@ -7,8 +7,7 @@ import java.io.BufferedReader;
 
 public class Simulator {
     private static int count;
-    private static WeatherTower wt;// = new weatherTower();
-// nongdamgom
+    private static WeatherTower wt;
     public static class SimulationException extends Exception {
         public SimulationException() { super(); }
         public SimulationException(String str) { super (str); }
@@ -33,9 +32,8 @@ public class Simulator {
             if (!simluationFile.canRead())
                 throw new FileNotFoundException();
             BufferedReader reader = new BufferedReader(new FileReader(simluationFile));
-            count = Integer.parseInt(reader.readLine()); //NumberFormatException
+            count = Integer.parseInt(reader.readLine());
             while ((str = reader.readLine()) != null) {
-//                System.out.println(str);
                 makeAircraft(str);
             }
             reader.close();
@@ -51,12 +49,11 @@ public class Simulator {
 
         try {
            init(args[0]);
-            // init("/Users/juyeeun/Desktop/AvajLauncher/src/avaj/scenario2.txt");
+            // init("/Users/juyeeun/Desktop/AvajLauncher/src/avaj/scenario.txt");
         } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
             return;
         }
-// yeju ineedyou
         while (count-- != 0) {
             wt.changeWeather();
         }
